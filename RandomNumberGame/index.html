@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <h1> Random Number Game </h1>
+    <h3></h3>
+        
+    <div class="slidecontainer">
+        <input type="range" list="tickmarks" min="0" max="150" step="1" value="1" class="slider" id="slider">
+
+        <datalist id="tickmarks">
+        <option value="0"></option>
+        <option value="30"></option>
+        <option value="60"></option>
+        <option value="90"></option>
+        <option value="120"></option>
+        <option value="150"></option>
+        </datalist>
+    </div>
+
+    <div class="guess-form">
+        <label for="guessField">Guess the number: </label>
+        <input type="text" id="guessField" class="guessField">
+        <input type="submit" value="Play!" class="guessSubmit" id="guessSubmit">
+    </div>
+    <div class="result-form">
+        <p class="selResult"></p>
+        <p class="gameResult"></p>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
