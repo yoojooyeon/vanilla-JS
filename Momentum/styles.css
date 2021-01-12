@@ -1,0 +1,120 @@
+.btn {
+    cursor: pointer;
+}
+
+html {
+    vertical-align: baseline;
+}
+
+body {
+    color: white;
+    font-family:"Malgun Gothic";
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    display: block;
+    line-height: 1;
+  
+}
+
+.js-date {
+    text-align: center;
+    font-size: 20pt;
+}
+
+.js-clock {
+    text-align: center;
+    font-size: 15vw;
+    font-size: 8vh;
+    
+}
+
+.weather-wrap {
+    text-align: right;
+    font-family: proxima-nova-1, proxima-nova-2, 'Helvetica Neue', Arial, sans-serif;
+    font-size: 22px;
+    font-weight: light;
+    top: 10;
+}
+
+.weather-wrap span {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.js-name {
+    text-align: center;
+    font-size: 25px;
+}
+
+.js-toDos {
+    text-align: center;
+}
+
+.clicked {
+    color: #7f8c8d;
+}
+
+.form, .greetings {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+
+
+.bgImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn 0.5s linear;
+}
+
+#nameInput {
+    font-size: 25px;
+    height: 80px;
+    width: 350px;
+    text-align: center;
+    opacity: 50%;
+    border: 0;
+    position: relative;
+    box-sizing: border-box;
+    font: inherit;
+    border-style: hidden;
+    border-radius: 25px;
+    background-repeat: repeat;
+    padding: 20px;
+}
+
+
+#taskInput {
+    font-size: 25px;
+    font-family: inherit;
+    height: 100px;
+    width: 400px;
+    text-align: center;
+    opacity: 80%;
+    border: 0;
+    position: relative;
+    box-sizing: border-box;
+    border-style: hidden;
+    border-radius: 20px 50px;
+    background-repeat: repeat;
+}
