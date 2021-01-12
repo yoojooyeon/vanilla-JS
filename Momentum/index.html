@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Momentum</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    
+    <body>
+        <div class="js-date">
+            <h1>2020-12-12 Saturday</h1>
+        </div>
+
+        <div class="js-clock">
+            <h1>00:00</h1>
+        </div>
+
+        <div class="js-name">
+        <form class="js-form form">
+            <input type="text" class="nameInput" id="nameInput" placeholder="What is your name?"/>
+        </form>
+        <h4 class="js-greetings greetings">GREETINGS</h4>
+        </div>
+
+        <div class="js-toDos">
+        <h1 class="taskHeading">Tasks</h1>
+        <form id="js-toDoForm">
+            <input type="text" class="taskInput" id="taskInput" placeholder="What is your task today?"/>
+        </form>
+        </div>
+        
+        <div>
+        <h3 class="pending">Pending</h3>
+        <ul id="js-toDoListPending">
+        </ul>
+        </div>
+
+        <div>
+        <h3 class="finished">Finished</h3>
+        <ul id="js-toDoListFinished">
+        </ul>
+        </div>
+        
+        <div class="weather-wrap">
+            <span class="js-weather"></span>
+        </div>
+        
+        <script src="clock.js"></script>
+        <script src="greeting.js"></script>
+        <script src="todo.js"></script>
+        <script src="bg.js"></script>
+        <script src="weather.js"></script>
+    </body>
+</html>
